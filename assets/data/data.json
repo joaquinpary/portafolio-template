@@ -1,128 +1,203 @@
 {
-    "title": "Thomas A. Anderson (Neo) | Portafolio",
-    "description": "Soy Neo, posiblemente el mejor programador de la historia.",
+    "title": "Joaquin A. Pary | Portafolio",
+    "description": "Estudiante de Ingenieria en Computacion",
     "image": "/avatar.jpg",
     "avatar": "/avatar.jpg",
-    "name": "Thomas A. Anderson (Neo)",
-    "skill": "Programador, hacker y el Elegido",
-    "location": "Matrix y el mundo real",
+    "name": "Joaquin A. Pary",
+    "skill": "Estudiante de Ingenieria en Computacion, Programador",
+    "location": "Cordoba - Argentina",
     "media": {
-        "email": "neo@metacortex.com",
+        "email": "joaquinpary@gmail.com",
         "cv": "/data/cv.pdf",
-        "github": "https://github.com/thomasanderson",
-        "likedin": "https://linkedin.com/in/thomasanderson"
+        "github": "https://github.com/joaquinpary",
+        "likedin": "https://www.linkedin.com/in/joaquin-pary-a7a986204/"
     },
-    "about": "Soy un programador inquieto con una doble vida, ya que trabajo en una prestigiosa empresa de software pero también he cometido todos los crímenes informáticos que existen. Tengo la sensación de que nada es lo que parece ser.",
+    "about": "Estudiante de Ingeniería en Computación con sólidos conocimientos en desarrollo de software, programación y tecnologías de la información. A punto de graduarme en la Facultad de Ciencias Exactas, Físicas y Naturales con habilidades destacadas en C/C++ (Programación de microcontroladores) y Programación Orientada a Objetos con Java. He participado activamente en proyectos prácticos, demostrando habilidades de resolución de problemas y un enfoque proactivo en el desarrollo de soluciones tecnológicas. Busco oportunidades para aplicar y obtener experiencia laboral del campo en que me estoy especializando.",
     "technologies": [
-        {
-            "icon": "devicon-devicon-plain",
-            "name": "Binario"
-        },
-        {
-            "icon": "devicon-devicon-plain",
-            "name": "Ensamblador"
-        },
-        {
-            "icon": "devicon-devicon-plain",
-            "name": "COBOL"
-        },
         {
             "icon": "devicon-c-plain",
             "name": "C"
         },
         {
+            "icon": "devicon-devicon-plain",
+            "name": "Assembly"
+        },
+        {
             "icon": "devicon-python-plain",
             "name": "Python"
+        },
+        {
+            "icon": "devicon-linux-plain",
+            "name": "Linux"
+        },
+        {
+            "icon": "devicon-mysql-plain",
+            "name": "MySQL"
         }
     ],
     "experience": [
         {
-            "icon": "terminal",
-            "title": "Metacortex",
-            "subtitle": "Programador",
-            "description": "Programo software respetable desde un cubículo.",
-            "date": "1999"
-        },
-        {
-            "icon": "rabbit",
-            "title": "Nebuchadnezzar",
-            "subtitle": "El Elegido",
-            "description": "Me encargo de salvar el mundo.",
-            "date": "1999 - Actualidad"
+            "icon": "graduation-cap",
+            "title": "Clases Particulares",
+            "subtitle": "Fisica, Matematica, Python",
+            "description": "Clases particulares a alumnos de la FCEFyN.",
+            "date": "2022 - Actualidad"
         }
     ],
     "projects": [
         {
-            "icon": "bar-chart-4",
-            "title": "Software random",
-            "subtitle": "Software propiedad de Metacortex",
-            "description": "Herramienta para hacer rico a otras personas.",
+            "icon": "cpu",
+            "title": "Sistema Embebido",
+            "subtitle": "Monitorizacion de nivel de tanque de agua",
+            "description": "Desarrollo de un sistema embebido para la monitorización del nivel de un tanque de agua. La informacion es enviada por protocolo UART asi tambien como el seteo del threshold de la alarma de bajo nivel.",
+            "technologies": [
+                {
+                    "icon": "devicon-c-plain",
+                    "name": "C"
+                },
+                {
+                    "icon": "devicon-devicon-plain",
+                    "name": "LPC1769 (ARM Cortex M3)"
+                }
+            ],
+            "image": "/project_1.jpg",
+            "url": "https://github.com/joaquinpary/monitorizacion_de_nivel_de_agua_LPC1769",
+            "github": "https://github.com/joaquinpary/monitorizacion_de_nivel_de_agua_LPC1769"
+        },
+        {
+            "icon": "gamepad-2",
+            "title": "Samid vs Viale",
+            "subtitle": "Juego de pelea",
+            "description": "Proyecto desarrollado con el objetivo de aprender y aplicar conceptos de programacion orientada a objetos, patrones de diseño, metodologias agiles (como Scrum) y la gestion de requerimientos.",
+            "technologies": [
+                {
+                    "icon": "devicon-java-plain",
+                    "name": "Java"
+                },
+                {
+                    "icon": "devicon-java-plain",
+                    "name": "CircleCI"
+                },
+                {
+                    "icon": "devicon-intellij-plain",
+                    "name": "IntelliJ IDEA"
+                }
+            ],
+            "image": "/project_2.jpg",
+            "url": "https://github.com/generobruno/ProyectoIngenieriaDeSoftware",
+            "github": "https://github.com/generobruno/ProyectoIngenieriaDeSoftware"
+        },
+        {
+            "icon": "cpu",
+            "title": "Desarrollo de Protocolo UART en FPGA",
+            "subtitle": "Interfaz UART para Conectar Datos de Rx a ALU y Tx en FPGA",
+            "description": "Desarrollo de un protocolo UART utilizando Verilog, con una interfaz que conecta los datos recibidos (Rx) a una ALU y devuelve el resultado a través de transmision (Tx).",
+            "technologies": [
+                {
+                    "icon": "devicon-devicon-plain",
+                    "name": "Basys 3"
+                },
+                {
+                    "icon": "devicon-devicon-plain",
+                    "name": "Vivado"
+                },
+                {
+                    "icon": "devicon-devico-plain",
+                    "name": "Verilog"
+                }
+                ,
+                {
+                    "icon": "devicon-python-plain",
+                    "name": "Python"
+                }
+            ],
+            "image": "/project_3.jpg",
+            "url": "https://github.com/joaquinpary/uart_protocol_fpga",
+            "github": "https://github.com/joaquinpary/uart_protocol_fpga"
+        },
+        {
+            "icon": "cpu",
+            "title": "Device Driver para Raspberry Pi",
+            "subtitle": "Controlador de dispositivo para la lectura de señales GPIO",
+            "description": "Implementacion de un Character Device Driver (CDD) en Raspberry Pi que permite sensar señales externas a traves de los pines GPIO, con una aplicacion en Python para seleccionar y graficar las señales en tiempo real.",
+            "technologies": [
+                {
+                    "icon": "devicon-devicon-plain",
+                    "name": "Raspberry Pi 3 Model B+"
+                },
+                {
+                    "icon": "devicon-c-plain",
+                    "name": "C"
+                },
+                {
+                    "icon": "devicon-python-plain",
+                    "name": "Python"
+                },
+                {
+                    "icon": "devicon-linux-plain",
+                    "name": "Linux"
+                }
+            ],
+            "image": "/project_4.jpg",
+            "url": "https://github.com/joaquinpary/device_driver",
+            "github": "https://github.com/joaquinpary/device_driver"
+        },
+        {
+            "icon": "cpu",
+            "title": "Calculadora de Índices Gini",
+            "subtitle": "Calculo del Índice de Desigualdad con Python y Ensamblador",
+            "description": "Implementacion de una calculadora del índice Gini que obtiene datos de la API del Banco Mundial. Los calculos se realizan con una rutina en ensamblador para procesar la conversion de numeros flotantes a enteros y sumar el resultado.",
             "technologies": [
                 {
                     "icon": "devicon-python-plain",
                     "name": "Python"
                 },
                 {
-                    "icon": "devicon-django-plain",
-                    "name": "Django"
-                }
-            ],
-            "image": "/project_1.jpg",
-            "url": "https://matrix.fandom.com/wiki/MetaCortex",
-            "github": "https://github.com/thomasanderson"
-        },
-        {
-            "icon": "bug-off",
-            "title": "Hackeo Matrix",
-            "subtitle": "Mi obra maestra",
-            "description": "Migración del Matrix al mundo real y hackeo del sistema ficticio para salvar a la humanidad.",
-            "technologies": [
+                    "icon": "devicon-c-plain",
+                    "name": "C"
+                },
                 {
                     "icon": "devicon-devicon-plain",
-                    "name": "Binario"
+                    "name": "Assembly - NASM"
+                },
+                {
+                    "icon": "devicon-linux-plain",
+                    "name": "Linux"
                 }
             ],
-            "image": "/project_2.jpg",
-            "url": "https://matrix.fandom.com/wiki/Wiki",
-            "github": "https://github.com/thomasanderson"
+            "image": "/project_5.jpg",
+            "url": "https://github.com/joaquinpary/calculadora_de_indices_gini",
+            "github": "https://github.com/joaquinpary/calculadora_de_indices_gini"
         }
     ],
     "training": [
         {
             "icon": "backpack",
-            "title": "Central West Junior High",
-            "subtitle": "Una escuela",
-            "description": "Aprendí cosas.",
-            "date": "Indeterminado",
-            "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
+            "title": "Escuela Tecnica Provincial N° 1",
+            "subtitle": "Aristobulo Vargas Belmonte",
+            "description": "Tecnico en Informatica Profesional y Personal.",
+            "date": "2017"
         },
         {
             "icon": "graduation-cap",
-            "title": "Owen Patterson High",
-            "subtitle": "Otra escuela",
-            "description": "Aprendí más cosas.",
-            "date": "Indeterminado",
-            "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
+            "title": "Universidad Nacional de Cordoba",
+            "subtitle": "Facultad de Ciencias Exactas, Fisicas y Naturales",
+            "description": "Ingieniero en Computacion.",
+            "date": "2018-Acutalmente"
         }
     ],
     "extras": [
         {
             "image": "/extra_1.jpg",
-            "title": "The Matrix",
-            "description": "Aparecí en esta película.",
-            "url": "https://en.wikipedia.org/wiki/The_Matrix"
+            "title": "CCNA 1 CISCO",
+            "description": "2023.",
+            "url": ""
         },
         {
             "image": "/extra_2.jpg",
-            "title": "The Matrix Reloaded",
-            "description": "Y en esta otra.",
-            "url": "https://en.wikipedia.org/wiki/The_Matrix_Reloaded"
-        },
-        {
-            "image": "/extra_3.jpg",
-            "title": "The Matrix Revolutions",
-            "description": "Y en esta más.",
-            "url": "https://en.wikipedia.org/wiki/The_Matrix_Revolutions"
+            "title": "CyberOps Associate",
+            "description": "2024",
+            "url": ""
         }
     ]
 }
